@@ -1,0 +1,26 @@
+{
+    "name": "rinjax/website",
+    "description": "my own little website",
+    "version": "0.0.1",
+    "authors": [
+        {
+            "name": "Rinjax",
+            "email": "steve@encara.co.uk"
+        }
+    ],
+    "require": {},
+
+    "autoload": {
+        "psr-4": {
+            "Rinjax\\RinjaxWebsite\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Rinjax\\RinjaxWebsite\\Providers\\RinjaxWebsiteServiceProvider"
+            ]
+        }
+    }
+
+}
