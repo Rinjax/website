@@ -2,11 +2,13 @@
 // Fonts
 @import url('https://fonts.googleapis.com/css?family=Nunito');
 
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
 // Variables
 @import 'variables';
 
-// Bootstrap
-@import '~bootstrap/scss/bootstrap';
+
 
 
 header {
@@ -36,11 +38,12 @@ header {
 
 body{
   min-height: 100vh;
-  padding-bottom: 60px; //for the footer
+  //padding-bottom: 60px; //for the footer
 }
 
 #container{
   position: relative;
+  min-height: 100vh;
 }
 
 footer{
@@ -49,5 +52,5 @@ footer{
   bottom: 0;
   width: 100%;
   height: 60px;
-  background: linear-gradient(103deg, rgba(22,0,36,0.95) 0%, rgba(75,9,121,0.9) 35%, rgba(196,0,255,0.9) 100%)
+  background: linear-gradient(103deg, rgba(22,0,36,0.95) 0%, rgba(75,9,121,0.9) 100%)
 }
