@@ -23,6 +23,12 @@ class RinjaxWebsiteServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        //
+        $this->loadRoutesFrom(__DIR__.'/../Http/Routes/website.php');
+
+        $this->loadViewsFrom(__DIR__.'/../Resources/Views', 'website');
+
+        $this->publishes([
+            __DIR__.'/../Public' => public_path('website'),
+        ], 'website');
     }
 }
