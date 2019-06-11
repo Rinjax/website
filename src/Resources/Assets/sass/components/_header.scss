@@ -1,0 +1,45 @@
+header {
+  clip-path: polygon(
+                  0 0, /* left top */
+                  100% 0, /* right top */
+                  100% 85%, /* right bottom */
+                  0 100% /* left bottom */
+  );
+
+  background: linear-gradient(103deg, rgba(22,0,36,0.95) 0%, rgba(75,9,121,0.9) 35%, rgba(196,0,255,0.9) 100%), url("/img/test.jpg");
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: cover;
+
+  width: 100vw;
+  height: 38vh;
+  padding-top: 4rem;
+  .title {
+    width: fit-content;
+    max-width: 100vw;
+  }
+  h1, h5 {
+    text-align: center;
+    color: #fff;
+  }
+
+  @media (min-width: $screen-lg) {
+    h1 {
+      text-align: left;
+    }
+
+    h5 {
+      text-align: right;
+    }
+  }
+
+  @media (max-width: $media-breakpoint-down('sm')) and (orientation: landscape) {
+    clip-path: none;
+    padding-top: 1.5rem;
+  }
+}
+
+#container{
+  position: relative;
+  min-height: 100vh;
+}
