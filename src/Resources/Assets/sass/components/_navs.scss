@@ -1,3 +1,11 @@
 header a.nav-item.nav-link{
   color: #fff;
 }
+
+.main-nav {
+  background: linear-gradient(103deg, rgba(22,0,36,0.95) 0%, rgba(75,9,121,0.9) 35%, rgba(196,0,255,0.9) 100%), url("/img/test.jpg");
+
+  @include media-breakpoint-up('md') {
+    background: none;
+  }
+}
