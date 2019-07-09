@@ -2,7 +2,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md">
-                <p>dasdsd</p>
+                <a href="{!! config('website.contact.github') !!}"><span class="icon-github1"></span></a>
             </div>
             <div class="col-md">
                 <p>something</p>

@@ -27,6 +27,8 @@ class RinjaxWebsiteServiceProvider extends ServiceProvider
 
         $this->loadViewsFrom(__DIR__.'/../Resources/Views', 'website');
 
+        $this->mergeConfigFrom(__DIR__.'/../Config/website.php', 'website');
+
         $this->publishes([
             __DIR__.'/../Public' => public_path('website'),
         ], 'website');

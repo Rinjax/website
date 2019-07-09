@@ -1,5 +1,5 @@
-<nav class="navbar navbar-expand-md sticky-top ml-auto main-nav">
-    <h3 class="d-md-none">Rinjax</h3>
+<nav class="navbar navbar-expand-md ml-auto main-nav">
+    <a href="#" class="d-md-none navbar-brand">Rinjax Development</a>
     <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
         <span class="icon-chevrons-down"></span>
     </button>
