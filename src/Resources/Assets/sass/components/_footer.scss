@@ -6,6 +6,23 @@ footer{
   height: 10rem;
   background: linear-gradient(103deg, rgba(22,0,36,0.95) 0%, rgba(75,9,121,0.9) 100%);
 
+  .container{
+    height: 100%;
+
+    .row{
+      height: 100%;
+
+      .col-md{
+        align-self: center;
+      }
+    }
+  }
+
+  a {
+    color: #fff;
+    font-size: 150%;
+  }
+
   @include media-breakpoint-up(md){
     height: 5rem;
   }

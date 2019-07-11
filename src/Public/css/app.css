@@ -1,10 +1,10 @@
 @import url(https://fonts.googleapis.com/css?family=Nunito);@font-face {
   font-family: 'icomoon';
-  src:  url(/website/fonts/icomoon.eot?550cebcc3d05e4a601d2d8648498f5e0);
-  src:  url(/website/fonts/icomoon.eot?550cebcc3d05e4a601d2d8648498f5e0#iefix) format('embedded-opentype'),
-    url(/website/fonts/icomoon.ttf?5f6021cb8de8b950ff10e002daa4ec8c) format('truetype'),
-    url(/website/fonts/icomoon.woff?968952c3a2512e1f95fcd28230e27655) format('woff'),
-    url(/website/fonts/icomoon.svg?a86d34cdce334a3cbdc83af5a508fbf2#icomoon) format('svg');
+  src:  url(/website/fonts/icomoon.eot?cc286f1f94ac25033afa603bd76b3a2a);
+  src:  url(/website/fonts/icomoon.eot?cc286f1f94ac25033afa603bd76b3a2a#iefix) format('embedded-opentype'),
+    url(/website/fonts/icomoon.ttf?f251eaabd2f889ca73f9c649ffe993ec) format('truetype'),
+    url(/website/fonts/icomoon.woff?5dc5f7ba46cb65b3c3c8332e9e0e25f0) format('woff'),
+    url(/website/fonts/icomoon.svg?7bbe490805ba856dc0f58398f6faf326#icomoon) format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -24,6 +24,48 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-tools:before {
+  content: "\E90B";
+}
+.icon-activity:before {
+  content: "\E90C";
+}
+.icon-book:before {
+  content: "\E90D";
+}
+.icon-briefcase:before {
+  content: "\E917";
+}
+.icon-crosshair:before {
+  content: "\E90E";
+}
+.icon-heart:before {
+  content: "\E90F";
+}
+.icon-minus:before {
+  content: "\E910";
+}
+.icon-play:before {
+  content: "\E911";
+}
+.icon-plus:before {
+  content: "\E912";
+}
+.icon-settings:before {
+  content: "\E913";
+}
+.icon-terminal:before {
+  content: "\E918";
+}
+.icon-thumbs-up:before {
+  content: "\E914";
+}
+.icon-x:before {
+  content: "\E915";
+}
+.icon-zap:before {
+  content: "\E916";
+}
 .icon-check:before {
   content: "\E900";
 }
@@ -10742,7 +10784,6 @@ header {
     background-size: cover;
     width: 100vw;
     height: 38vh;
-    padding-top: 4rem;
   }
 
   header .title {
@@ -10784,6 +10825,23 @@ footer {
   background: linear-gradient(103deg, rgba(22, 0, 36, 0.95) 0%, rgba(75, 9, 121, 0.9) 100%);
 }
 
+footer .container {
+  height: 100%;
+}
+
+footer .container .row {
+  height: 100%;
+}
+
+footer .container .row .col-md {
+  align-self: center;
+}
+
+footer a {
+  color: #fff;
+  font-size: 150%;
+}
+
 @media (min-width: 768px) {
   footer {
     height: 5rem;
@@ -10808,6 +10866,31 @@ header a.nav-item.nav-link {
   .main-nav {
     background: none;
   }
+}
+
+.navbar-brand {
+  color: #fff;
+}
+
+.icon-cv {
+  color: #fff;
+  padding: 0.5rem;
+  border-radius: 5rem;
+  margin-right: 0.5rem;
+  margin-left: -5px;
+  background-color: #4b0979;
+}
+
+.text-purple-dark {
+  color: #160024 !important;
+}
+
+.text-purple-med {
+  color: #4b0979 !important;
+}
+
+.text-purple-light {
+  color: #c400ff !important;
 }
 
 html,

@@ -7,3 +7,5 @@
     where i provided all the internal IT support and administration, before moving over to my current role, as a web developer
     where i build and maintain the company's CRMs and websites.
 </p>
+
+@include('website::components.cv.index')

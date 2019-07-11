@@ -10,7 +10,7 @@ header {
                     0 100% /* left bottom */
     );
 
-    background: linear-gradient(103deg, rgba(22,0,36,0.95) 0%, rgba(75,9,121,0.9) 35%, rgba(196,0,255,0.9) 100%), url("/img/test.jpg");
+    background: linear-gradient(103deg, rgba($purple-dark,0.95) 0%, rgba($purple-med,0.9) 35%, rgba($purple-light,0.9) 100%), url("/img/test.jpg");
     background-repeat: no-repeat;
     background-position: right;
     background-size: cover;
