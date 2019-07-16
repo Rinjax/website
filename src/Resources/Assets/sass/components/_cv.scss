@@ -1,4 +1,11 @@
+.card-cv {
+  border: $border-standard;
+  box-shadow: $shadow-standard;
 
+  .card-cv-body{
+    padding: 2rem;
+  }
+}
 
 .icon-cv {
   color: #fff;

@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'icomoon';
-  src:  url('fonts/icomoon.eot?u6c6nn');
-  src:  url('fonts/icomoon.eot?u6c6nn#iefix') format('embedded-opentype'),
-    url('fonts/icomoon.ttf?u6c6nn') format('truetype'),
-    url('fonts/icomoon.woff?u6c6nn') format('woff'),
-    url('fonts/icomoon.svg?u6c6nn#icomoon') format('svg');
+  src:  url('fonts/icomoon.eot?2xpcq3');
+  src:  url('fonts/icomoon.eot?2xpcq3#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?2xpcq3') format('truetype'),
+    url('fonts/icomoon.woff?2xpcq3') format('woff'),
+    url('fonts/icomoon.svg?2xpcq3#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -24,6 +24,9 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-soccer-ball:before {
+  content: "\e919";
+}
 .icon-tools:before {
   content: "\e90b";
 }
