@@ -9,7 +9,8 @@
         <br>1998 - 2000
     </p>
     <p>
-        Passed - coursework includes subjects such as electronics, low level programming, high level programming
+        <span class="badge badge-success">Passed</span> - coursework includes subjects such as electronics, low level programming,
+        high level programming, Maths
     </p>
 </div>
 
@@ -23,22 +24,22 @@
         <br>1993 - 1998
     </p>
     <p>
-    <table>
+    <table class="table-gcse">
         <tr>
             <td>English</td>
-            <td>D</td>
+            <td><span class="badge badge-success">D</span></td>
         </tr>
         <tr>
             <td>Maths</td>
-            <td>C</td>
+            <td><span class="badge badge-success">C</span></td>
         </tr>
         <tr>
             <td>Science</td>
-            <td>B</td>
+            <td><span class="badge badge-success">B</span></td>
         </tr>
         <tr>
             <td>Technology - Electronics</td>
-            <td>B</td>
+            <td><span class="badge badge-success">B</span></td>
         </tr>
     </table>
     </p>

@@ -4,9 +4,9 @@
         <span class="icon-chevrons-down"></span>
     </button>
     <div class="collapse navbar-collapse justify-content-between" id="navbarNavAltMarkup">
-        <div class="navbar-nav ml-auto">
+        <div class="navbar-nav ml-auto pr-md-3">
             <a class="nav-item nav-link active" href="{!! route('website.home') !!}">Home <span class="sr-only">(current)</span></a>
-            <a class="nav-item nav-link" href="#">Features</a>
+            <a class="nav-item nav-link" href="{!! route('website.about') !!}">About</a>
             <a class="nav-item nav-link" href="#">Pricing</a>
             <a class="nav-item nav-link" href="{!! route('website.cv') !!}">CV</a>
         </div>

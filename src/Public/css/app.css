@@ -10754,6 +10754,13 @@ a.text-dark:focus {
   }
 }
 
+html,
+body {
+  min-height: 100vh;
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+
 header {
   -webkit-clip-path: none;
           clip-path: none;
@@ -10768,6 +10775,7 @@ header {
     background-position: right;
     background-size: cover;
     width: 100vw;
+    max-width: 100vw;
     height: 38vh;
   }
 
@@ -10859,6 +10867,7 @@ header a.nav-item.nav-link {
 
 .card-cv {
   border: 1px solid rgba(0, 0, 0, 0.125);
+  box-shadow: 10px 10px 8px 10px #888888;
 }
 
 .card-cv .card-cv-body {
@@ -10886,9 +10895,11 @@ header a.nav-item.nav-link {
   color: #c400ff !important;
 }
 
-html,
-body {
-  min-height: 100vh;
-  max-width: 100vw;
+.table-gcse tr > td:nth-child(2) {
+  padding-left: 1rem;
+}
+
+.img-profile {
+  border: 2px solid #4b0979;
 }
 
