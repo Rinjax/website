@@ -1,7 +1,9 @@
+
 <p>
-    <span class="badge badge-success" style="font-size: 1rem">Full Stack Developer</span> - well... i would say im probably the most 'full stack' you can get. Not only can i develop front
-    end and back end code, i can manage the servers it all runs on, make sure they're monitored for uptime, monitor resources
-    and make sure that there's data backups and fail over plans in place.
+    <span class="badge badge-success" style="font-size: 1rem">Full Stack Developer</span> - well... i would say im probably
+    the most 'full stack' you can get. Not only can i develop front end and back end code, i can manage the servers, services and
+    networks it runs on. Making sure they're monitored for uptime, monitor resources, and make sure that there's data backups
+    and fail over plans in place. That's a complete end to end skill set for web development.
 </p>
 
 <p>
