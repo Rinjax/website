@@ -18,7 +18,7 @@
 
 <p>
     I always really enjoyed the scripting side when doing server and desktop administration. I would always get the feeling
-    of glee seeing the script run through and 'Bang' several servers configured and 100's of desktops PC configured. That's
+    of glee seeing the script run through and 'bang!' several servers configured and 100's of desktops PC configured. That's
     where i started getting a taste for programming. When the opportunity rose to make the change from Systems Administrator
     to Developer, i jumped in without hesitation and haven't looked back. I can't believe i hadn't made the change sooner!
 </p>

@@ -43,5 +43,13 @@ header {
 #container{
   position: relative;
   min-height: 100vh;
-  padding-bottom: $footer-height;
+  padding-bottom: 20rem;
+
+  @include media-breakpoint-up(md){
+    padding-bottom: 7rem;
+  }
+
+  @include media-breakpoint-up(lg){
+    padding-bottom: 6rem
+  }
 }

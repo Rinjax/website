@@ -11,17 +11,17 @@
                             <img src="{!! asset('website/img/profile.jpg') !!}" class="card-img" alt="Profile Picture">
                         </div>
                         <div class="col-md-8">
-                            <div class="card-body">
+                            <div class="card-body d-flex flex-column align-items-center justify-content-center h-100">
                                 <h2 class="card-title">Steve <span class="text-purple-med">Temple</span></h2>
-                                <p class="card-text">Full stack Laravel Developer</p>
-                                <div class="d-flex align-items-center" style="font-size: 1.2rem">
-                                    <span class="icon-cv icon-mail"></span>
+                                <p class="card-text">Full Stack Laravel Developer</p>
+                                <div class="d-flex align-items-center mt-4" style="font-size: 1.2rem">
+                                    <span class="icon-cv icon-mail" style="margin-top: 7px"></span>
                                     <a href="mailto:{!! config('website.contact.email') !!}"
                                         class="text-purple-med">
                                         {!! config('website.contact.email') !!}
                                     </a>
                                 </div>
-                                <p class="card-text"><small class="text-muted">if in doubt: sudo rm -rf /</small></p>
+                                <p class="card-text" style="position: absolute; bottom: 10px; right: 20px"><small class="text-muted">if in doubt: sudo rm -rf /</small></p>
                             </div>
                         </div>
                     </div>

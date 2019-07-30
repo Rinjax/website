@@ -38,4 +38,8 @@ footer{
   @include media-breakpoint-up(md){
     height: 5rem;
   }
+
+  @include media-breakpoint-up(lg){
+    height: 4rem;
+  }
 }

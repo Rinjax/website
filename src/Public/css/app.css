@@ -10809,6 +10809,18 @@ header {
   padding-bottom: 20rem;
 }
 
+@media (min-width: 768px) {
+  #container {
+    padding-bottom: 7rem;
+  }
+}
+
+@media (min-width: 992px) {
+  #container {
+    padding-bottom: 6rem;
+  }
+}
+
 footer {
   color: #fff;
   position: absolute;

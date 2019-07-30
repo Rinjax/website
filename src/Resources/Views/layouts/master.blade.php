@@ -2,6 +2,12 @@
 
 @section('body')
 
+    <div class="tt tt-success" style="">
+        <ul>
+            <li>this is a message</li>
+        </ul>
+    </div>
+
     <div id="container">
         @include('website::components.header')
 
