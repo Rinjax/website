@@ -10,7 +10,7 @@ header {
                     0 100% /* left bottom */
     );
 
-    background: linear-gradient(103deg, rgba($purple-dark,0.95) 0%, rgba($purple-med,0.9) 35%, rgba($purple-light,0.9) 100%), url("/img/test.jpg");
+    background: linear-gradient(103deg, rgba($purple-dark,0.95) 0%, rgba($purple-med,0.9) 35%, rgba($purple-light,0.9) 100%), url("/website/img/header_background.png");
     background-repeat: no-repeat;
     background-position: right;
     background-size: cover;
@@ -52,4 +52,6 @@ header {
   @include media-breakpoint-up(lg){
     padding-bottom: 6rem
   }
+
+
 }

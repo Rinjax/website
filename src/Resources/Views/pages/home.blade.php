@@ -5,10 +5,15 @@
     <div class="container mt-5">
         <div class="row">
             <div class="col d-flex justify-content-center">
-                <div class="card mb-3" style="max-width: 100%; width: 100%">
+                <div class="card mb-3" style="max-width: 100%; width: 80%">
                     <div class="row no-gutters">
-                        <div class="col-md-4">
-                            <img src="{!! asset('website/img/profile.jpg') !!}" class="card-img" alt="Profile Picture">
+                        <div class="col-md-4" style="height: 250px; background-color: #aaa">
+                            <div class="img-turn">
+                                <div class="img-front">
+                                </div>
+                                <div class="img-back">
+                                </div>
+                            </div>
                         </div>
                         <div class="col-md-8">
                             <div class="card-body d-flex flex-column align-items-center justify-content-center h-100">
@@ -21,7 +26,7 @@
                                         {!! config('website.contact.email') !!}
                                     </a>
                                 </div>
-                                <p class="card-text" style="position: absolute; bottom: 10px; right: 20px"><small class="text-muted">if in doubt: sudo rm -rf /</small></p>
+                                <p class="card-text" style="position: absolute; bottom: 10px; right: 20px; margin-top: 3rem"><small class="text-muted">if in doubt: sudo rm -rf /</small></p>
                             </div>
                         </div>
                     </div>

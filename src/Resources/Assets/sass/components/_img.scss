@@ -1,3 +1,35 @@
 .img-profile{
   border: 2px solid $purple-med;
 }
+
+.img-turn{
+  height: 100%;
+  width: 100%;
+}
+
+.img-front, .img-back{
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  backface-visibility: hidden;
+  position: absolute;
+  transition: all 1s;
+}
+
+.img-front{
+  background: #888 url("/website/img/profile.jpg") no-repeat center;
+  background-size: cover;
+  transform: perspective(800px) rotateY(0deg);
+}
+.img-back{
+  background: #888 url("/website/img/back.jpg") no-repeat center;
+  background-size: cover;
+  transform: perspective(800px) rotateY(180deg);
+}
+
+.img-turn:hover > .img-front{
+  transform: perspective(800px) rotateY(-180deg);
+}
+.img-turn:hover > .img-back{
+  transform: perspective(800px) rotateY(0deg);
+}
