@@ -8,7 +8,19 @@
             "email": "steve@encara.co.uk"
         }
     ],
-    "require": {},
+    "repositories": [
+        {
+            "type": "git",
+            "url": "git@github.com:Rinjax/css-spinners"
+        }
+    ],
+    "require": {
+
+    },
+
+    "require-dev": {
+        "rinjax/css-spinners": "^0.0.1"
+    },
 
     "autoload": {
         "psr-4": {

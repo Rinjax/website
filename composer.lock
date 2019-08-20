@@ -1,0 +1,36 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "862d1a1dc62047627fc49b7ae8c9a1f1",
+    "packages": [],
+    "packages-dev": [
+        {
+            "name": "rinjax/css-spinners",
+            "version": "v0.0.1",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:Rinjax/css-spinners",
+                "reference": "a44a6595119efabfbd0d43bd2988f65ee75ca762"
+            },
+            "type": "library",
+            "authors": [
+                {
+                    "name": "Rinjax",
+                    "email": "steve@encara.co.uk"
+                }
+            ],
+            "description": "css spinners and loaders",
+            "time": "2019-08-20T19:50:56+00:00"
+        }
+    ],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}
