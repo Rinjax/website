@@ -21,7 +21,7 @@
                 alt="profile picture">
 
                 <div>
-                    @include('website::components.about-text')
+                    @include('website::components.about.about-text')
                 </div>
             </div>
         </div>

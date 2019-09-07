@@ -10951,3 +10951,14 @@ header a.nav-item.nav-link {
   transform: perspective(800px) rotateY(0deg);
 }
 
+.bkg-dark {
+  background-color: #160024;
+}
+
+.card-stats {
+  background: radial-gradient(circle, #292929 0%, #0d0d0d 70%);
+  box-shadow: 1px 1px 23px 1px #888;
+  color: #fff;
+  border: 1px #666 solid;
+}
+

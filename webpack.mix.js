@@ -8,6 +8,8 @@ mix.js('./src/Resources/Assets/js/app.js', 'js/app.js')
 
     .sass('./src/Resources/Assets/sass/app.scss', 'css/app.css')
 
+    .js('./src/Resources/Assets/vue/statboard-demo/root.js', 'js/statboard.js')
+
     .version();
 
 

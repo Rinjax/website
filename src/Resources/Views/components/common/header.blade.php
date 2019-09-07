@@ -1,5 +1,5 @@
 <header>
-    @include('website::components.menu')
+    @include('website::components.common.menu')
 
     <div class="container">
 

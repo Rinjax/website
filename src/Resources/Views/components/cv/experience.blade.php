@@ -10,8 +10,8 @@
     </p>
     <p>
         Responsible for all internal IT systems and software, including all firewalls, servers, laptops and desktops.
-        Third line support. Full stack Jr Developer, for Hometelecom website and CRM systems, which includes working with
-        API’s from TalkTalk and Aurora Billing.
+        Third line support. Full stack Developer, for the Global 4 and Hometelecom websites and CRM systems, which includes working with
+        API’s from TalkTalk, Aurora Billing, Sage and NetLynk.
     </p>
 </div>
 
