@@ -24,13 +24,13 @@
 
     "autoload": {
         "psr-4": {
-            "Rinjax\\RinjaxWebsite\\": "src/"
+            "Rinjax\\Website\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Rinjax\\RinjaxWebsite\\Providers\\RinjaxWebsiteServiceProvider"
+                "Rinjax\\Website\\Providers\\WebsiteServiceProvider"
             ]
         }
     }
