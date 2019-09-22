@@ -49,7 +49,7 @@
                     </div>
                 </div>
                 <div class="col">
-                    <h1>table stats</h1>
+                    <stat-leadertable></stat-leadertable>
                 </div>
             </div>
         </div>

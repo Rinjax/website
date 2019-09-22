@@ -25,6 +25,8 @@ class WebsiteServiceProvider extends ServiceProvider
     {
         $this->loadRoutesFrom(__DIR__.'/../Http/Routes/website.php');
 
+        $this->loadRoutesFrom(__DIR__.'/../Http/Routes/demo-stat.php');
+
         $this->loadViewsFrom(__DIR__.'/../Resources/Views', 'website');
 
         $this->mergeConfigFrom(__DIR__.'/../Config/website.php', 'website');

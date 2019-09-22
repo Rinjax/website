@@ -3,18 +3,18 @@
         <div class="card-body">
             <div class="row">
                 <div class="col mb-1">
-                    <h3 class="text-center">Total</h3>
+                    <h3 class="text-center text-purple-light">Total</h3>
                     <h1 id="total-count" class="text-center bounce">{{itemTotal}}</h1>
                     <div class="col-separator-hb w-100"></div>
                 </div>
             </div>
             <div class="row mt-2">
                 <div class="col col-separator-vr">
-                    <h5 class="text-center">Item 1:</h5>
+                    <h5 class="text-center text-purple-light">Item 1:</h5>
                     <h5 class="text-center">{{itemOne}}</h5>
                 </div>
                 <div class="col">
-                    <h5 class="text-center">Item 2:</h5>
+                    <h5 class="text-center text-purple-light">Item 2:</h5>
                     <h5 class="text-center">{{itemTwo}}</h5>
                 </div>
             </div>
