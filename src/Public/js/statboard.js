@@ -192,7 +192,10 @@ var reactiveData = vue_chartjs__WEBPACK_IMPORTED_MODULE_0__["mixins"].reactiveDa
       options: {
         responsive: true,
         maintainAspectRatio: false,
-        height: 500
+        animation: {
+          duration: 3000,
+          easing: 'linear'
+        }
       }
     };
   },
@@ -225,17 +228,25 @@ var reactiveData = vue_chartjs__WEBPACK_IMPORTED_MODULE_0__["mixins"].reactiveDa
       }.bind(this), 10000);
     },
     updateLabels: function updateLabels() {
+      var months = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
+
       if (this.chartData != null) {
         var labels = this.chartData.labels.slice(1, 6);
         console.log('here');
         console.log(labels);
-        var num = parseInt(labels[4].substring(6));
+        var num = months.indexOf(labels[4]);
         console.log(num);
-        if (num == 12) num = 0;
-        labels.push('Month ' + (num + 1));
+
+        if (num == 11) {
+          num = 0;
+        } else {
+          num = num + 1;
+        }
+
+        labels.push(months[num]);
         return labels;
       } else {
-        return ['Month 1', 'Month 2', 'Month 3', 'Month 4', 'Month 5', 'Month 6'];
+        return months.slice(0, 6);
       }
     },
     updateData: function updateData(dataIndex) {

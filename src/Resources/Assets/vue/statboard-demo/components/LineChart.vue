@@ -12,7 +12,11 @@
             options: {
                 responsive: true,
                 maintainAspectRatio: false,
-                height: 500
+                animation: {
+                    duration: 3000,
+                    easing: 'linear'
+                }
+
             }
         }),
         methods: {
@@ -51,6 +55,8 @@
 
             updateLabels(){
 
+                const months = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
+
                 if(this.chartData != null){
                     let labels = this.chartData.labels.slice(1,6);
 
@@ -59,17 +65,22 @@
                     console.log(labels);
 
 
-                    let num = parseInt(labels[4].substring(6));
+                    let num = months.indexOf(labels[4]);
 
                     console.log(num);
 
-                    if(num == 12) num = 0;
+                    if(num == 11){
+                        num = 0;
+                    } else {
+                        num = num + 1;
+                    }
 
-                    labels.push('Month ' + (num + 1));
+                    labels.push(months[num]);
+
 
                     return labels;
                 }else{
-                    return ['Month 1','Month 2','Month 3','Month 4','Month 5','Month 6'];
+                    return months.slice(0,6);
                 }
 
 

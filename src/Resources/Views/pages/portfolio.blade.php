@@ -46,7 +46,12 @@
                     </div>
                     <div class="row mt-5">
                         <div class="col">
-                            <stat-linechart></stat-linechart>
+                            <div class="card card-stats">
+                                <div class="card-body">
+                                    <stat-linechart></stat-linechart>
+                                </div>
+                            </div>
+
                         </div>
                     </div>
                 </div>
