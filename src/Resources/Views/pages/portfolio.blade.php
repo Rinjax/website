@@ -30,25 +30,28 @@
     </div>
 
 
-    <div class="conatiner-fluid bkg-dark" style="padding: 4rem">
+    <div class="conatiner-fluid bkg-dark" style="padding: 4rem; color: #fff">
+        <h2 class="text-center mb-5">Demo Statboard Using VueJs</h2>
         <div id="vue-root">
-            <div class="row">
-                <div class="col">
-                    <div class="row">
-                        <div class="col">
+            <div class="row mt-5">
+                <div class="col-md-12 col-lg-6">
+                    <div class="row mb-5">
+                        <div class="col-sm-12 col-md-6">
+                            <h4 class="text-center">Total Items</h4>
                             <stat-totalcount></stat-totalcount>
                         </div>
-                        <div class="col">
+                        <div class="col-sm-12 col-md-6">
                             <h1>other tile stats</h1>
                         </div>
                     </div>
-                    <div class="row">
+                    <div class="row mt-5">
                         <div class="col">
-                            <h1>Fancy line graph</h1>
+                            <stat-linechart></stat-linechart>
                         </div>
                     </div>
                 </div>
-                <div class="col">
+                <div class="col-md-12 col-lg-6">
+                    <h4 class="text-center">Leader Board</h4>
                     <stat-leadertable></stat-leadertable>
                 </div>
             </div>

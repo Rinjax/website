@@ -165,4 +165,7 @@
     .col-separator-vr {
         border-right: 1px #353535 solid;
     }
+    @media  {
+        
+    }
 </style>

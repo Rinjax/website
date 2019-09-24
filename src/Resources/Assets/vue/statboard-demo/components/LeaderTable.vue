@@ -1,27 +1,29 @@
 <template>
     <div class="card card-stats">
         <div class="card-body">
-            <table class="table">
-                <thead>
-                <tr>
-                    <th></th>
-                    <th class="text-purple-light">Name</th>
-                    <th class="text-center text-purple-light">Item One</th>
-                    <th class="text-center text-purple-light">Item Two</th>
-                    <th class="text-center text-purple-light">Total</th>
-                </tr>
-                </thead>
-                <transition-group name="flip-list" tag="tbody">
-                    <tr v-for="user in usersOrderedByTotal" :key="user.id">
-                        <td><img class="rounded-circle" :src="'/website/img/demo/users/1.jpg'" alt=""></td>
-                        <td>{{user.name}}</td>
-                        <td class="text-center">{{user.stat.item1}}</td>
-                        <td class="text-center">{{user.stat.item2}}</td>
-                        <td class="text-center">{{user.stat.total}}</td>
+            <div class="table-responsive">
+                <table class="table table-borderless">
+                    <thead>
+                    <tr>
+                        <th class="text-center"></th>
+                        <th class="text-purple-light">Name</th>
+                        <th class="text-center text-purple-light">Item One</th>
+                        <th class="text-center text-purple-light">Item Two</th>
+                        <th class="text-center text-purple-light">Total</th>
                     </tr>
-                </transition-group>
+                    </thead>
+                    <transition-group name="flip-list" tag="tbody">
+                        <tr v-for="user in usersOrderedByTotal" :key="user.id">
+                            <td class=""><img class="rounded-circle" :src="'/website/img/demo/users/1.jpg'" alt=""></td>
+                            <td>{{user.name}}</td>
+                            <td class="text-center">{{user.stat.item1}}</td>
+                            <td class="text-center">{{user.stat.item2}}</td>
+                            <td class="text-center"><strong>{{user.stat.total}}</strong></td>
+                        </tr>
+                    </transition-group>
+                </table>
+            </div>
 
-            </table>
         </div>
     </div>
 </template>

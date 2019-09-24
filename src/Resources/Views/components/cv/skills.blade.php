@@ -4,7 +4,7 @@
 <div class="card-body">
    <ul class="d-flex flex-wrap flex-column flex-md-row">
        <li class="w-50">Laravel 5 framework (PHP)</li>
-       <li class="w-50">Vue framework (JS)</li>
+       <li class="w-50">Vue 2 framework (JS)</li>
        <li class="w-50">Bootstrap 3 & 4</li>
        <li class="w-50">HTML, SASS, JQuery</li>
        <li class="w-50">Bash scripting</li>
