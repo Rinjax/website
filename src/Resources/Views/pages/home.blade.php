@@ -32,6 +32,49 @@
                     </div>
                 </div>
             </div>
+            <svg class="loader" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1600">
+                <style>
+                    circle {
+                        fill: none;
+                        stroke-width: 3.5;
+                        animation-name: preloader;
+                        animation-duration: 3s;
+                        animation-iteration-count: infinite;
+                        animation-timing-function: ease-in-out;
+                        transform-origin: 170px 170px;
+                        will-change: transform;
+                    }
+                    circle:nth-of-type(1) {
+                        stroke-dasharray: 137px;
+                        animation-delay: 0.15s;
+                    }
+
+                    circle:nth-of-type(2) {
+                        stroke-dasharray: 125px;
+                        animation-delay: 0.3s;
+                    }
+
+                    circle:nth-of-type(3) {
+                        stroke-dasharray: 112px;
+                        animation-delay: 0.45s;
+                    }
+
+                    circle:nth-of-type(4) {
+                        stroke-dasharray: 75px;
+                        animation-delay: 0.7s;
+                    }
+
+                    @keyframes preloader {
+                        50% {
+                            transform: rotate(360deg);
+                        }
+                    }
+                </style>
+                <circle cx="170" cy="170" r="40" stroke="#E2007C"/>
+                <circle cx="170" cy="170" r="33" stroke="#404041"/>
+                <circle cx="170" cy="170" r="27" stroke="#E2007C"/>
+                <circle cx="170" cy="170" r="21" stroke="#404041"/>
+            </svg>
         </div>
     </div>
 
