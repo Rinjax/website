@@ -1,19 +1,19 @@
 
 <p>
-    <span class="badge badge-success" style="font-size: 1rem">Full Stack Developer</span> - well... i would say im probably
-    the most 'full stack' you can get. Not only can i develop front end and back end code, i can manage the servers, services and
-    networks it runs on. Making sure they're monitored for uptime, monitor resources, and make sure that there's data backups
-    and fail over plans in place. That's a complete end to end skill set for web development.
+    Well, i would say im probably the most 'full stack' you can get. Not only can i develop front end and back end code,
+    i can manage the servers, services and networks it runs on. Making sure they're monitored for uptime, monitor resources,
+    and make sure that there's data backups and fail over plans in place. That's a complete end to end skill set for web
+    development.
 </p>
 
 <p>
-    I have been working in technology industries for 19 years now. I started out with a small company stripping down and
-    rebuilding old PC, to recycle and sell on to developing countries. I then went on to work for a telecoms company,
-    maintaining and installing telephones system, and also provided internal IT support. From there,  i worked for an
-    IT consultancy company, looking after several clients in the South East. I provided all manor of
-    support from desktops, laptops, server, printers, WiFi and software. Now I work for a medium sized telecoms company,
-    where i provided all the internal IT support and administration, before moving over to my current role, as a web developer
-    where i build and maintain the company's CRMs and websites.
+    I have been working in technology industries for {!! \Carbon\Carbon::create(2000,07,01)->diffInYears(\Carbon\Carbon::now()) !!}
+    years now. I started out with a small company stripping down and rebuilding old PC, to recycle and sell on to developing
+    countries. I then went on to work for a telecoms company, maintaining and installing telephones system, and also provided
+    internal IT support. From there,  i worked for an IT consultancy company, looking after several clients in the South East.
+    I provided all manor of support from desktops, laptops, server, printers, WiFi and software. Now I work for a medium sized
+    telecoms company, where i provided all the internal IT support and administration, before moving over to my current role,
+    as a web developer where i build and maintain the company's CRMs and websites.
 </p>
 
 <p>

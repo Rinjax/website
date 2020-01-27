@@ -12,7 +12,7 @@
 @import "../fonts/style.css";
 
 // spinners
-@import "../../../../vendor/rinjax/css-spinners/src/dist/spinners.css";
+@import "../../../../vendor/rinjax/css-spinners/src/source/sass/app";
 
 
 @import "components/html";
@@ -24,6 +24,7 @@
 @import "components/tables";
 @import "components/img";
 @import "components/backgrounds";
+
 @import "components/stats";
 
 

@@ -30,6 +30,10 @@ footer{
   @include media-breakpoint-up(lg){
     height: 4rem;
   }
+
+  .footer-footer{
+    background: linear-gradient(103deg, rgba(22,0,36,0.95) 0%, rgba(75,9,121,0.9) 100%);
+  }
 }
 
 

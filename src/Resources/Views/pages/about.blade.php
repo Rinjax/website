@@ -7,20 +7,21 @@
     <div class="container mt-5">
         <div class="row">
             <div class="col">
-                <h2 class="mb-5">Steve <span class="text-purple-med">Temple</span></h2>
-
                 <img class="
-                img-fluid
-                rounded
-                d-xs-block
+                d-block
                 d-sm-inline-block
-                mx-xs-auto
+                mx-auto
                 float-sm-right
-                img-profile"
-                src="{!! asset('website/img/profile.jpg') !!}"
-                alt="profile picture">
+                img-profile
+                rounded"
+                     src="{!! asset('website/img/profile_2.jpg') !!}"
+                     alt="profile picture">
 
-                <div>
+                <h2 class="mb-4 mb-sm-3 mb-lg-4 text-center text-sm-left">Steve <span class="text-purple-med">Temple</span></h2>
+
+
+
+                <div class="text-center text-sm-left">
                     @include('website::components.about.about-text')
                 </div>
             </div>

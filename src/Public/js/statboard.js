@@ -34196,7 +34196,7 @@ var app = new Vue({
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! C:\wamp64\www\rinjax\website\src\Resources\Assets\vue\statboard-demo\root.js */"./src/Resources/Assets/vue/statboard-demo/root.js");
+module.exports = __webpack_require__(/*! C:\wamp64\www\Rinjax\website\src\Resources\Assets\vue\statboard-demo\root.js */"./src/Resources/Assets/vue/statboard-demo/root.js");
 
 
 /***/ })

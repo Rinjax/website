@@ -3,6 +3,7 @@
 return [
     'contact' => [
         'github' => 'https://github.com/Rinjax',
-        'email' => 'steve@encara.co.uk'
+        'linkedin' => 'https://www.linkedin.com/in/rinjax/',
+        'email' => 'steve@rinjax.co.uk'
     ]
 ];
