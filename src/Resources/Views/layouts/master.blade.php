@@ -2,10 +2,12 @@
 
 @section('body')
 
-    <div id="container">
+    <div id="" class="d-flex flex-column min-vh-100">
         @include('website::components.common.header')
 
-        @yield('content')
+        <div class="flex-grow-1">
+            @yield('content')
+        </div>
 
         @include('website::components.common.footer')
     </div>
