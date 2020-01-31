@@ -2,7 +2,7 @@
 
 @section('content')
 
-    <div class="container mt-5">
+    <div class="container">
         <div class="row">
             <div class="col d-flex justify-content-center">
                 <div class="card mb-3" style="max-width: 100%; width: 80%">
