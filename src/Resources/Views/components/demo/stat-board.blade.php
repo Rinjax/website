@@ -9,7 +9,11 @@
                         <stat-totalcount></stat-totalcount>
                     </div>
                     <div class="col-sm-12 col-md-6">
-                        <h1>other tile stats</h1>
+                        <div class="card card-stats">
+                            <div class="card-body">
+                                <stat-piechart></stat-piechart>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <div class="row mt-5">

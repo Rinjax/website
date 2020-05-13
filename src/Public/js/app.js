@@ -49110,8 +49110,8 @@ if (token) {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! C:\wamp64\www\Rinjax\website\src\Resources\Assets\js\app.js */"./src/Resources/Assets/js/app.js");
-module.exports = __webpack_require__(/*! C:\wamp64\www\Rinjax\website\src\Resources\Assets\sass\app.scss */"./src/Resources/Assets/sass/app.scss");
+__webpack_require__(/*! C:\wamp64\www\Rinjax-dev\website\src\Resources\Assets\js\app.js */"./src/Resources/Assets/js/app.js");
+module.exports = __webpack_require__(/*! C:\wamp64\www\Rinjax-dev\website\src\Resources\Assets\sass\app.scss */"./src/Resources/Assets/sass/app.scss");
 
 
 /***/ })

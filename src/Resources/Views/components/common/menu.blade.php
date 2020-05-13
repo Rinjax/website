@@ -7,7 +7,7 @@
         <div class="navbar-nav ml-auto pr-md-3">
             <a class="nav-item nav-link active" href="{!! route('website.home') !!}">Home <span class="sr-only">(current)</span></a>
             <a class="nav-item nav-link" href="{!! route('website.about') !!}">About</a>
-            <a class="nav-item nav-link" href="{!! route('website.portfolio') !!}">Portfolio</a>
+            <a class="nav-item nav-link" href="{!! route('website.portfolio') !!}">For Fun</a>
             <a class="nav-item nav-link" href="{!! route('website.cv') !!}">CV</a>
         </div>
     </div>

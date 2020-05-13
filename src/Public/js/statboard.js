@@ -273,6 +273,70 @@ var reactiveData = vue_chartjs__WEBPACK_IMPORTED_MODULE_0__["mixins"].reactiveDa
 
 /***/ }),
 
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./src/Resources/Assets/vue/statboard-demo/components/PieChart.vue?vue&type=script&lang=js&":
+/*!**********************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./src/Resources/Assets/vue/statboard-demo/components/PieChart.vue?vue&type=script&lang=js& ***!
+  \**********************************************************************************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var vue_chartjs__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vue-chartjs */ "./node_modules/vue-chartjs/es/index.js");
+//
+//
+
+var reactiveData = vue_chartjs__WEBPACK_IMPORTED_MODULE_0__["mixins"].reactiveData;
+/* harmony default export */ __webpack_exports__["default"] = ({
+  name: "PieChart",
+  mixins: [vue_chartjs__WEBPACK_IMPORTED_MODULE_0__["Pie"], reactiveData],
+  data: function data() {
+    return {
+      itemOne: 0,
+      itemTwo: 0,
+      options: {
+        responsive: true,
+        maintainAspectRatio: false,
+        animation: {
+          duration: 3000,
+          easing: 'linear'
+        }
+      }
+    };
+  },
+  methods: {
+    initChartData: function initChartData() {
+      return {
+        labels: ['Item One', 'Item Two'],
+        datasets: [{
+          fill: true,
+          backgroundColor: ['#c325f8', '#671df8'],
+          data: [this.itemOne, this.itemTwo],
+          borderColor: ['black', 'black'],
+          borderWidth: [2, 2]
+        }]
+      };
+    },
+    updateData: function updateData() {
+      this.itemOne = Math.floor(Math.random() * 20) + 1;
+      this.itemTwo = Math.floor(Math.random() * 20) + 1;
+    },
+    updateChartData: function updateChartData() {
+      setInterval(function () {
+        this.chartData = this.initChartData();
+      }.bind(this), 10000);
+    }
+  },
+  computed: {},
+  mounted: function mounted() {
+    this.chartData = this.initChartData();
+    this.renderChart(this.chartData, this.options);
+    this.updateChartData();
+  }
+});
+
+/***/ }),
+
 /***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./src/Resources/Assets/vue/statboard-demo/components/TotalCount.vue?vue&type=script&lang=js&":
 /*!************************************************************************************************************************************************************************************************!*\
   !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./src/Resources/Assets/vue/statboard-demo/components/TotalCount.vue?vue&type=script&lang=js& ***!
@@ -34077,6 +34141,56 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./src/Resources/Assets/vue/statboard-demo/components/PieChart.vue":
+/*!*************************************************************************!*\
+  !*** ./src/Resources/Assets/vue/statboard-demo/components/PieChart.vue ***!
+  \*************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _PieChart_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./PieChart.vue?vue&type=script&lang=js& */ "./src/Resources/Assets/vue/statboard-demo/components/PieChart.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+var render, staticRenderFns
+
+
+
+
+/* normalize component */
+
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_1__["default"])(
+  _PieChart_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"],
+  render,
+  staticRenderFns,
+  false,
+  null,
+  "67f1311c",
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "src/Resources/Assets/vue/statboard-demo/components/PieChart.vue"
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "./src/Resources/Assets/vue/statboard-demo/components/PieChart.vue?vue&type=script&lang=js&":
+/*!**************************************************************************************************!*\
+  !*** ./src/Resources/Assets/vue/statboard-demo/components/PieChart.vue?vue&type=script&lang=js& ***!
+  \**************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_PieChart_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../node_modules/babel-loader/lib??ref--4-0!../../../../../../node_modules/vue-loader/lib??vue-loader-options!./PieChart.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./src/Resources/Assets/vue/statboard-demo/components/PieChart.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_PieChart_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+
+/***/ }),
+
 /***/ "./src/Resources/Assets/vue/statboard-demo/components/TotalCount.vue":
 /*!***************************************************************************!*\
   !*** ./src/Resources/Assets/vue/statboard-demo/components/TotalCount.vue ***!
@@ -34176,12 +34290,15 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_TotalCount__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./components/TotalCount */ "./src/Resources/Assets/vue/statboard-demo/components/TotalCount.vue");
 /* harmony import */ var _components_LeaderTable__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./components/LeaderTable */ "./src/Resources/Assets/vue/statboard-demo/components/LeaderTable.vue");
 /* harmony import */ var _components_LineChart__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./components/LineChart */ "./src/Resources/Assets/vue/statboard-demo/components/LineChart.vue");
+/* harmony import */ var _components_PieChart__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./components/PieChart */ "./src/Resources/Assets/vue/statboard-demo/components/PieChart.vue");
+
 
 
 
 Vue.component('stat-totalcount', _components_TotalCount__WEBPACK_IMPORTED_MODULE_0__["default"]);
 Vue.component('stat-leadertable', _components_LeaderTable__WEBPACK_IMPORTED_MODULE_1__["default"]);
 Vue.component('stat-linechart', _components_LineChart__WEBPACK_IMPORTED_MODULE_2__["default"]);
+Vue.component('stat-piechart', _components_PieChart__WEBPACK_IMPORTED_MODULE_3__["default"]);
 var app = new Vue({
   el: '#vue-root',
   data: {}
@@ -34196,7 +34313,7 @@ var app = new Vue({
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! C:\wamp64\www\Rinjax\website\src\Resources\Assets\vue\statboard-demo\root.js */"./src/Resources/Assets/vue/statboard-demo/root.js");
+module.exports = __webpack_require__(/*! C:\wamp64\www\Rinjax-dev\website\src\Resources\Assets\vue\statboard-demo\root.js */"./src/Resources/Assets/vue/statboard-demo/root.js");
 
 
 /***/ })

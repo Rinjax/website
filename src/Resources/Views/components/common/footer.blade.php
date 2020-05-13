@@ -13,6 +13,6 @@
         </div>
     </div>
     <div class="footer-footer text-center">
-        <small>Copyright &copy; {!! Carbon\Carbon::now()->year !!}, JestHub All Rights Reserved</small>
+        <small>Copyright &copy; {!! Carbon\Carbon::now()->year !!}, Rinjax Development All Rights Reserved</small>
     </div>
 </footer>
