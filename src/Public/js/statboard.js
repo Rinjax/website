@@ -323,6 +323,7 @@ var reactiveData = vue_chartjs__WEBPACK_IMPORTED_MODULE_0__["mixins"].reactiveDa
     },
     updateChartData: function updateChartData() {
       setInterval(function () {
+        this.updateData();
         this.chartData = this.initChartData();
       }.bind(this), 10000);
     }
@@ -34313,7 +34314,7 @@ var app = new Vue({
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! C:\wamp64\www\Rinjax-dev\website\src\Resources\Assets\vue\statboard-demo\root.js */"./src/Resources/Assets/vue/statboard-demo/root.js");
+module.exports = __webpack_require__(/*! C:\wamp64\www\rinjax-dev\website\src\Resources\Assets\vue\statboard-demo\root.js */"./src/Resources/Assets/vue/statboard-demo/root.js");
 
 
 /***/ })

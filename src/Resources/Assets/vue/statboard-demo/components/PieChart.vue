@@ -43,6 +43,7 @@
 
             updateChartData(){
                 setInterval(function () {
+                    this.updateData();
                     this.chartData = this.initChartData();
                 }.bind(this), 10000)
             },
