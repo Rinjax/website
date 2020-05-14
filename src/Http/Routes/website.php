@@ -8,6 +8,6 @@ Route::view('/', 'website::pages.home')->name('website.home');
 
 Route::view('/about', 'website::pages.about')->name('website.about');
 
-Route::view('/portfolio', 'website::pages.portfolio')->name('website.portfolio');
+Route::view('/for-fun', 'website::pages.portfolio')->name('website.portfolio');
 
 Route::view('/cv', 'website::pages.cv')->name('website.cv');

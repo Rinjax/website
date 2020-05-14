@@ -11259,8 +11259,12 @@ header a.nav-item.nav-link {
 
 .card-stats {
   background: radial-gradient(circle, #292929 0%, #0d0d0d 70%);
-  box-shadow: 1px 1px 23px 1px #888;
   color: #fff;
   border: 1px #666 solid;
+  transition: all 1s;
+}
+
+.card-stats:hover {
+  box-shadow: 1px 1px 23px 1px #888;
 }
 

@@ -5,13 +5,12 @@
             <div class="col-md-12 col-lg-6">
                 <div class="row mb-5">
                     <div class="col-sm-12 col-md-6">
-                        <h4 class="text-center">Total Items</h4>
                         <stat-totalcount></stat-totalcount>
                     </div>
                     <div class="col-sm-12 col-md-6">
                         <div class="card card-stats">
                             <div class="card-body">
-                                <stat-piechart></stat-piechart>
+                                <stat-piechart  :height="175"></stat-piechart>
                             </div>
                         </div>
                     </div>
@@ -28,7 +27,6 @@
                 </div>
             </div>
             <div class="col-md-12 col-lg-6">
-                <h4 class="text-center">Leader Board</h4>
                 <stat-leadertable></stat-leadertable>
             </div>
         </div>

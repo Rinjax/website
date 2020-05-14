@@ -292,13 +292,16 @@ var reactiveData = vue_chartjs__WEBPACK_IMPORTED_MODULE_0__["mixins"].reactiveDa
   mixins: [vue_chartjs__WEBPACK_IMPORTED_MODULE_0__["Pie"], reactiveData],
   data: function data() {
     return {
-      itemOne: 0,
-      itemTwo: 0,
+      itemOne: 25,
+      itemTwo: 75,
       options: {
+        height: '100px',
+        width: '100px',
         responsive: true,
         maintainAspectRatio: false,
+        aspectRatio: 1,
         animation: {
-          duration: 3000,
+          duration: 1500,
           easing: 'linear'
         }
       }
@@ -34314,7 +34317,7 @@ var app = new Vue({
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! C:\wamp64\www\rinjax-dev\website\src\Resources\Assets\vue\statboard-demo\root.js */"./src/Resources/Assets/vue/statboard-demo/root.js");
+module.exports = __webpack_require__(/*! C:\wamp64\www\Rinjax-dev\website\src\Resources\Assets\vue\statboard-demo\root.js */"./src/Resources/Assets/vue/statboard-demo/root.js");
 
 
 /***/ })

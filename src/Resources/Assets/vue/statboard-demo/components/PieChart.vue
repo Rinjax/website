@@ -8,13 +8,16 @@
         name: "PieChart",
         mixins: [Pie, reactiveData],
         data: () => ({
-            itemOne: 0,
-            itemTwo: 0,
+            itemOne: 25,
+            itemTwo: 75,
             options: {
+                height: '100px',
+                width: '100px',
                 responsive: true,
                 maintainAspectRatio: false,
+                aspectRatio: 1,
                 animation: {
-                    duration: 3000,
+                    duration: 1500,
                     easing: 'linear'
                 }
 
