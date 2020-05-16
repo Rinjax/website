@@ -44,3 +44,18 @@
         programming and onsite programming of systems as per customer requirements.
     </p>
 </div>
+
+
+
+<div class="card-body">
+    <p>
+        <strong>
+            <span class="text-purple-med">Jr Technician</span> | Actis Ltd
+        </strong>
+        <br>2000 - 2002
+    </p>
+    <p>
+        Stripping down retired IT equipment for recycling and disposal. Testing, rebuilding, upgrading and minor cosmetic
+        repairs of IT equipment, to sell on to developing countries.
+    </p>
+</div>

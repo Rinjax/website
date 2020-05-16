@@ -19,7 +19,7 @@
     },
 
     "require-dev": {
-        "rinjax/css-spinners": "^0.0.1"
+        "rinjax/css-spinners": "^0.0.2"
     },
 
     "autoload": {

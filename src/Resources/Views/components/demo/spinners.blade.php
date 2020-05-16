@@ -29,7 +29,7 @@
                         <style>
                             circle {
                                 fill: none;
-                                stroke-width: 3.5;
+                                stroke-width: 1.5;
                                 animation-name: see-saw;
                                 animation-duration: 3s;
                                 animation-iteration-count: infinite;
@@ -67,6 +67,76 @@
                         <circle cx="170" cy="170" r="33" stroke="#404041"/>
                         <circle cx="170" cy="170" r="27" stroke="#E14E13"/>
                         <circle cx="170" cy="170" r="21" stroke="#404041"/>
+                    </svg>
+
+                    <svg class="loader" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 340" height="100" width="100">
+                        <style>
+                            path {
+                                fill: none;
+                                stroke-width: 4.5;
+                                animation-duration: 2s;
+                                animation-iteration-count: infinite;
+                                animation-timing-function: linear;
+
+                            }
+
+                            path:nth-of-type(1) {
+                                stroke-dasharray: 550px;
+                                stroke-dashoffset: 600;
+                                animation-name: triangle1;
+                                animation-delay: 0.15s;
+                            }
+
+                            path:nth-of-type(2) {
+                                stroke-dasharray: 500px;
+                                animation-name: triangle2;
+                                animation-delay: 0.3s;
+                            }
+
+                            path:nth-of-type(3) {
+                                stroke-dasharray: 450px;
+                                stroke-dashoffset: 600;
+                                animation-name: triangle3;
+                                animation-delay: 0.45s;
+                            }
+
+                            path:nth-of-type(4) {
+                                stroke-dasharray: 300px;
+                                animation-name: triangle4;
+                                animation-delay: 0.60s;
+                            }
+
+                            @keyframes triangle1 {
+                                to {
+                                    stroke-dashoffset: -500;
+                                }
+                            }
+
+                            @keyframes triangle2 {
+                                to {
+                                    stroke-dashoffset: 999;
+                                }
+                            }
+
+                            @keyframes triangle3 {
+                                to {
+                                    stroke-dashoffset: -300;
+                                }
+                            }
+
+                            @keyframes triangle4 {
+                                to {
+                                    stroke-dashoffset: 600;
+                                }
+                            }
+
+
+
+                        </style>
+                        <path d="M170,5 L5,335 L335,335 Z" stroke="#E14E13"/>
+                        <path d="M170,40 L35,315 L300,315 Z" stroke="#404041"/>
+                        <path d="M170,75 L65,295 L270,295 Z" stroke="#E14E13"/>
+                        <path d="M170,110 L95,275 L240,275 Z" stroke="#404041"/>
                     </svg>
                 </div>
             </div>
