@@ -1,5 +1,7 @@
 @extends('website::layouts.master')
 
+@section('title') Rinjax::Home @endsection
+
 @section('content')
 
     <div class="container">
@@ -32,10 +34,11 @@
                     </div>
                 </div>
             </div>
-
         </div>
     </div>
+@endsection
 
-
+@section('additional-content')
+    @include('website::components.common.logo-footer')
 @endsection
 

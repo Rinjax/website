@@ -9,6 +9,8 @@
             @yield('content')
         </div>
 
+        @yield('additional-content')
+
         @include('website::components.common.footer')
     </div>
 
