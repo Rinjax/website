@@ -14,7 +14,7 @@
                     </thead>
                     <transition-group name="flip-list" tag="tbody">
                         <tr v-for="user in usersOrderedByTotal" :key="user.id">
-                            <td class=""><img class="rounded-circle" :src="'/website/img/demo/users/1.jpg'" alt=""></td>
+                            <td class=""><img class="rounded-circle" :src="'/website/img/demo/users/' + user.id + '.jpg'" alt=""></td>
                             <td>{{user.name}}</td>
                             <td class="text-center">{{user.stat.item1}}</td>
                             <td class="text-center">{{user.stat.item2}}</td>
@@ -23,7 +23,6 @@
                     </transition-group>
                 </table>
             </div>
-
         </div>
     </div>
 </template>
