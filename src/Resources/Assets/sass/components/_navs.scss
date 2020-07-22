@@ -1,5 +1,29 @@
 header a.nav-item.nav-link{
   color: #fff;
+  @include media-breakpoint-up('md') {
+    transition: all 0.5s;
+    &:hover:not(.active) {
+      font-size: 1.2rem;
+      margin-top: -5px;
+    }
+  }
+
+}
+
+header a.nav-item.nav-link.active{
+  @include media-breakpoint-down('sm') {
+    color: $purple-med;
+    background-color: #fff;
+    box-shadow: 0 0 5px 8px #fff;
+    padding: 2px;
+    margin: 1rem 0;
+    border-radius: 5px;
+  }
+
+  @include media-breakpoint-up('md'){
+    border-bottom: 1px solid #fff;
+  }
+
 }
 
 .main-nav {

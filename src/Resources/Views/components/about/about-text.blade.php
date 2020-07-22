@@ -28,16 +28,15 @@
 <p>
     With background knowledge in programming already (from scripting with the servers), it didnt take me long to pickup
     PHP and the Laravel framework. I played around in my space time, read the documentations, Googled things, and, of course
-    there's stack overflow, which usually has an answer for every error you come across. From there i realised that there
-    must be more modern ways for developing the front end, which is where i started learning VueJS. This lead on to Vue
+    there's stack overflow, which usually has an answer for every error you come across. From there I realised that there
+    must be more modern ways for developing the front end, which is where I started learning VueJS. This lead on to Vue
     extension frameworks like VueX and NuxtJS, and even other frameworks for backend services like GraphQL.
 </p>
 
 <p>
-    I known im not the most highly educated person you'll meet, but I sure do love learning new things that interest me, and
-    will happily dedicate my spare time researching things I dont know. Im not one to shy a way from a challenge just because
-    I dont know how to do it. I can get a little OCD with a problem, and have a need to be able resolve, or at very least
-    understand why there is a problem.
+    I love learning new things that interest me, and will happily dedicate my spare time researching things I dont know.
+    Im not one to shy a way from a challenge just because I dont know how to do it. I can get a little OCD with a problem,
+    and have a need to be able resolve, or at very least understand why there is a problem.
 </p>
 
 

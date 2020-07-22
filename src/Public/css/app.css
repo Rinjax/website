@@ -11176,6 +11176,34 @@ header a.nav-item.nav-link {
   color: #fff;
 }
 
+@media (min-width: 768px) {
+  header a.nav-item.nav-link {
+    transition: all 0.5s;
+  }
+
+  header a.nav-item.nav-link:hover:not(.active) {
+    font-size: 1.2rem;
+    margin-top: -5px;
+  }
+}
+
+@media (max-width: 767.98px) {
+  header a.nav-item.nav-link.active {
+    color: #4b0979;
+    background-color: #fff;
+    box-shadow: 0 0 5px 8px #fff;
+    padding: 2px;
+    margin: 1rem 0;
+    border-radius: 5px;
+  }
+}
+
+@media (min-width: 768px) {
+  header a.nav-item.nav-link.active {
+    border-bottom: 1px solid #fff;
+  }
+}
+
 .main-nav {
   background: linear-gradient(103deg, rgba(22, 0, 36, 0.95) 0%, rgba(75, 9, 121, 0.9) 35%, rgba(196, 0, 255, 0.9) 100%), url("/img/test.jpg");
 }
